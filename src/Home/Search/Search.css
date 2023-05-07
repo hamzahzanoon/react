@@ -1,0 +1,76 @@
+.h-home {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h-left {
+    display: flex;
+}
+
+.h-name {
+    margin: 0px 35px 0 0px;
+    display: flex;
+}
+
+.h-name h5 {
+    color: #F8F8FC;
+    font-size: 26px;
+    font-weight: 100;
+}
+
+.h-name h6 {
+    color: rgba(226, 104, 97, 0.8);
+    padding-left: 5px;
+    margin-top: 10px;
+}
+
+
+.h-top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 88px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(269.8deg, rgba(226, 104, 97, 0.8) -6.89%, rgba(252, 143, 137, 0.7) 26.51%, rgba(253, 170, 166, 0.869));
+}
+
+.h-input {
+    position: relative;
+}
+
+input {
+    width: 310px;
+    height: 40px;
+    top: calc(50% - 40px/2);
+    border: 2px solid #F8F8FC;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    padding: 20px;
+    padding-left: 55px;
+}
+
+input::placeholder {
+    font-size: 13px;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    color: #a39497;
+}
+
+.h-icons i {
+     color: #F8F8FC;
+     font-size: 22px;
+}
+
+.h-icons img {
+    border-radius: 35%;
+}
+
+.h-icons .fa-globe {
+    margin-right: 40px;
+}

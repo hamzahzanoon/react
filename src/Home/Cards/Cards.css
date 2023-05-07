@@ -1,0 +1,64 @@
+.h-boxs {
+    width: 300px;
+    height: 150px;
+    margin-right: 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1), 0px 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+}
+
+.h-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* .div-icons {
+    width: 180px;
+} */
+
+.h-box h4 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+hr {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0) 100%);
+    opacity: 0.25;
+}
+
+.child-les {
+    color: #a4a8ba;
+}
+
+.h-box-left {
+    position: relative;
+}
+
+.div-icon {
+    width: 107%;
+    height: 64px;
+    margin-top: -20px;
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+    background: #FD9E98;
+    box-shadow: 0px 7px 10px -5px rgba(253, 158, 152, 0.4);
+    border-radius: 12px;
+}
+
+.box-namber {
+    margin-top: 10px;
+}
+
+.h-box-left span {
+    color: green;
+}
+
+.child-img {
+    height: 100px;
+    margin-top: 20px;
+}
+

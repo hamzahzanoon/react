@@ -1,0 +1,36 @@
+.h-path {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.h-path h3 {
+    font-weight: bold;
+}
+
+.h-path p {
+    color: #959697;
+}
+
+.h-path2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #fff;
+    padding-right: 30px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2),
+    -4px -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.h-path2 i {
+    color: rgba(226, 103, 97, 1);
+    font-size: 14px;
+} 
+
+.h-path2 p {
+    color: #000;
+    margin-top: 15px;
+    font-size: 14px;
+}
